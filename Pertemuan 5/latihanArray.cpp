@@ -1,12 +1,15 @@
+//header cpp
 #include <iostream>
 using namespace std;
 
 int main(){
+    //inisialisasi ukuran matriks
     //penjumlahan matrix 2x2
     int matriks1[2][2];
     int matriks2[2][2];
     int hasil[2][2];
-    
+
+    //memasukkan nilai matriks 1
     cout<<"Matriks 1: "<<endl;
     for (int i = 0 ; i<2 ; i++){
         for (int j = 0 ; j<2 ; j++){
@@ -15,6 +18,7 @@ int main(){
         }
     }
 
+    //memasukkan nilai matriks 2
     cout<<"Matriks 2: "<<endl;
     for (int i = 0 ; i<2 ; i++){
         for (int j = 0 ; j<2 ; j++){
@@ -23,6 +27,7 @@ int main(){
         }
     }
 
+    //menjumlahkan matriks 1 dan matriks 2
     cout<<"Hasil Penjumlahan : "<<endl;
     for (int i = 0 ; i<2 ; i++){
         for (int j = 0 ; j<2 ; j++){
