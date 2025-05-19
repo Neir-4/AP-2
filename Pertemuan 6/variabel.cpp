@@ -1,17 +1,18 @@
+//header cpp
 #include <iostream>
 using namespace std;
 
-string namaGlobal = "Ilmu";
+string namaGlobal = "Ilmu"; //variabel global
 void namavariabel(){
-    string namaLokal = "Komputer";
+    string namaLokal = "Komputer"; //variabel lokal
     //coba akses
-    cout<<namaLokal<<endl;
+    cout<<namaLokal<<endl;    //memanggil variabel lokal di prosedur
     //coba akses
-    cout<<namaGlobal<<endl;
+    cout<<namaGlobal<<endl; //memanggil variabel global di prosedur
 }
 int main(){
-    namavariabel();
+    namavariabel(); //memanggil prosedur namavariabel
     
     //coba akses
-    cout<<namaLokal<<endl; //ga iso
+    cout<<namaLokal<<endl; //tidak bisa memanggil variabel lokal prosedur namavariabel di program utama
 }
