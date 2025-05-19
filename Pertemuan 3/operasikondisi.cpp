@@ -1,10 +1,12 @@
+//header cpp
 #include <iostream>
 using namespace std;
 
 int main() {
+    //inisialisasi variabel
     int nilai;
     
-    system("CLS");
+    system("CLS"); //untuk membersihkan terminal
 
     cout<<"Masukkan Nilai : ";
     cin>>nilai;
@@ -15,9 +17,9 @@ int main() {
     // }
 
     // if else statement
-    // if (nilai <= 65 ) {
+    // if (nilai <= 65 ) {    jika nilai kurang dari sama dengan 65 maka
     //     cout<<"Anda Tidak Lulus"<< endl;
-    // } else { 
+    // } else { selain itu maka
     //     cout<<"Anda Lulus"<< endl;
     // }
 
@@ -46,7 +48,7 @@ int main() {
     // switch (nilai) {
     //     case 1:
     //         cout<<"Senin"<<endl;
-    //         break;
+    //         break; break untuk menghentikan program
         
     //     case 2:
     //         cout<<"Selasa"<<endl;
