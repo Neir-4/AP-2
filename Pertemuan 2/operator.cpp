@@ -1,9 +1,11 @@
+//header cpp
 #include <iostream>
 using namespace std;
 
 main() {
+    //inisialisasi variabel
     int a,b;
-    system("CLS");
+    system("CLS"); //untuk membersihkan terminal
 
     //assignment operator
     a = 3;
@@ -68,14 +70,14 @@ main() {
     //Increment, Decrement
     //pre increment
     // cout <<  a << endl;
-    // cout << ++a << endl;
+    // cout << ++a << endl; ditambah dulu bari ditampilkan
 
     // cout <<  b << endl;
-    // cout << ++b << endl;
+    // cout << ++b << endl;    
    
     // // post increment
     // cout << a << endl;
-    // cout << a++ << endl;
+    // cout << a++ << endl;   ditampilkan dulu baru ditambahkan
     // cout << a << endl;
     
     // cout << b << endl;
@@ -84,15 +86,15 @@ main() {
 
     // //Pre Decrement
     // cout <<  a << endl;
-    // cout << --a << endl;
+    // cout << --a << endl;    dikurang dulu baru ditampilkan
 
     // cout <<  b << endl;
-    // cout << --b << endl;
+    // cout << --b << endl;   
 
     //Post Decrement
     
     // cout << a << endl;
-    // cout << a-- << endl;
+    // cout << a-- << endl;     ditampilkan dulu baru dikurang
     // cout << a << endl;
     
     // cout << b << endl;
