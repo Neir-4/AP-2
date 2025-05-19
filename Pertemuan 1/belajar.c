@@ -2,6 +2,7 @@
 #include <conio.h>
 
 int main() {
+    //inisialisasi variabel
     char nama[50];
     int nim;
     char kom[2];
@@ -15,10 +16,10 @@ int main() {
     printf("Masukkan nim : ");
     scanf("%d", &nim); // fungsi masukan pada C
 
-    getchar();
+    getchar();//get char
 
     printf("Masukkan kom : ");
-    gets(kom); 
+    gets(kom); //menerima input dan disimpan ke variabel kom
 
     printf("Masukkan ip : ");
     scanf("%f", &ip); 
@@ -34,5 +35,5 @@ int main() {
     printf("IP : %f\n", ip);
 
     printf("press any button to continue...");
-    getch(); 
+    getch(); // meminta satu karakter tapi tidak ditampilkan
 }
