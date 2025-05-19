@@ -3,6 +3,7 @@
 using namespace std;  
 
 int main(){
+    //inisialisasi variabel
     string nama;
     char kom, jeniskelamin;
     int nim;
@@ -23,13 +24,13 @@ int main(){
     cin>>ip;
 
     cout<<"Masukkan Jenis Kelamin (L/P) : ";
-    jeniskelamin = getche();
+    jeniskelamin = getche(); //meminta masukkan dan disimpan ke jenisKelamin
 
     cout<<"\n"<<"Nama Anda : "<<nama<<endl;
     cout<<"NIM Anda : "<<nim<<endl;
     cout<<"KOM Anda : "<<kom<<endl;
     cout<<"IP Anda : "<<ip<<endl;
-    cout<<"Jenis Kelamin Anda : "; putchar(jeniskelamin);
+    cout<<"Jenis Kelamin Anda : "; putchar(jeniskelamin); //putchar untuk menampilkan tipe data char dari jenisKelamin
 
     getch(); //karakter yang diketik tidak di tampilkan di layar
     /*Comment multiline*/
