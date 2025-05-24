@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     system("CLS");
-    //Goto label
+    //Goto label | Untuk melakukan pindah line sesuai dengan line tujuan yang telah ditentukan
     // Hello World , Fasilkom-TI, Ilmu Komputer, IKLC
     // -> Hello World , IKLC , Ilmu Komputer, Fasilkom-TI
     // a:
@@ -30,7 +30,7 @@ int main() {
     //     goto genap
     // }
 
-    //statement while
+    //statement while | Perulangan yang terus mengulang selama kondisi yang ditentukan bernilai benar
     // int i = 1;
     // while (i<= 10) {
     //     if (i % 2 == 0) {
@@ -38,19 +38,19 @@ int main() {
     //     } i++;
     // }
 
-    //statement do-while
+    //statement do-while | Perulangan yang akan berjalan sekali dan terus mengulang selama kondisi yang ditentukan bernilai benar
     // int i = 1;
     // do {
     //     cout<< i <<endl;
     // } while(i<=0);
 
-    // statement for
+    // statement for | Perulangan yang akan terus mengulang sampai batas yang kita tentukan
     // for (inisialisasi , kondisi, increase)
     // for (int i = 1; i<=10 ; i+=2) {
     //     cout<<"Hello World"<<endl; // i = i + 2
     // }
 
-    //nested for
+    //nested for | Perulangan for di dalam perulangan for
     //***** 5 x 5
     // for (int i = 1 ; i <= 5 ; i++) {
     //     for (int j=1; j<=5; j++){
@@ -58,7 +58,7 @@ int main() {
     //     } cout<<endl;
     // }
 
-    // segitiga siku-siku
+    // segitiga siku-siku | Contoh Nested for dengan menyusun bintang (*) menjadi segitiga siku-siku
     // for (int i=1;i<=5;i++) {
     //     for (int j = 1 ; j<=i ; j++) {
     //         cout << "* ";
