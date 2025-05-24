@@ -1,15 +1,19 @@
+//header cpp
 #include <iostream>
 using namespace std;
 
+//fungsi untuk penjumlahan
 void penjumlahan(int a, int b){
     cout<< a + b<<endl;
 }
 
+//fungsi untuk penjumlahan dengan pointer
 void penjumlahanPointer(int *a, int *b){
     *a += *b;
     cout<< *a<<endl;
 }
 
+//fungsi utama
 int main(){
     system("cls");
     //Pointer Declaration
@@ -32,7 +36,7 @@ int main(){
     // cout<<"Alamat memori variabel pointer_number = "<<&pointer_number<<endl;
     // cout<<endl;
 
-    //Pointer in Array
+    //Pointer in Array | Penggunaan Pointer dalam array
     int num[] = {1,2,3,4,5};
     int *pointer_num = num;
     // cout<<"Isi variabel num = "<<num[0] <<endl;   
@@ -50,7 +54,7 @@ int main(){
     // cout<<"Alamat memori variabel pointer_num = "<<&pointer_num<<endl;
     // cout<<endl;
 
-    //Pointer in Parameter
+    //Pointer in Parameter | Penggunaan pointer di parameter fungsi
     // int num1 = 5;
     // int num2 = 7;
     // penjumlahan(num1,num2);
@@ -60,7 +64,7 @@ int main(){
     // cout<<num1<<endl;
     // cout<<num2<<endl;
 
-    //Pointer in Pointer
+    //Pointer in Pointer | Penggunaan Pointer di dalam Pointer
     // int score = 4;
     // int *pointer_score = &score;
     // int **ptr_pointer_score = &pointer_score; //pointer in pointer
