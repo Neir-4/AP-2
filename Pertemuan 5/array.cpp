@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-    // Array declaration & Initialization
+    // Array declaration & Initialization | Deklarasi Array
     /*2 Cara membuat array: 
     
     Cara 1 : Array kosong*/
@@ -20,24 +20,24 @@ int main() {
     //string nama[5] = "Alya", "Kiel", "Rifki", "Farhan", "Dafa";
     //string nama[] = "Alya", "Kiel", "Rifki", "Farhan", "Dafa";
 
-    //Ascending Element in Array
+    //Ascending Element in Array | Nilai element dari kecil ke besar di Array
     // cout << nama[0]<<endl;
     // cout << nama[1]<<endl;
     // cout << nama[2]<<endl;
     // cout << nama[3]<<endl;
     // cout << nama[4]<<endl;        
 
-    //Menggunakan Looping
+    //Menggunakan Looping | Penggunaan perulangan dalam array
     // for (int i=0; i<=5; i++){
     //     cout<<nama[i]<<endl;
     // }
 
-    //Descending Element in Array 
+    //Descending Element in Array | Nilai element menurun di Array
     //     for (int i=4; i>=0; i--){
     //     cout<<nama[i]<<endl;
     // }
 
-    //Multidimensional Array
+    //Multidimensional Array | Array yang memiliki lebih dari satu dimensi
     //1 3 5
     //2 4 6
 
