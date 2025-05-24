@@ -12,7 +12,7 @@ int tambah(int a, int b){
     return a + b;
 }
 
-//fungsi overload
+//fungsi overload | Fungsi yang memiliki nama sama namun berbeda tipe dengan fungsi lainnya
 int kali(int a, int b){
     return a * b;
 }
@@ -20,7 +20,7 @@ double kali(double a, double b){
     return a * b; 
 }
 
-//fungsi rekursif
+//fungsi rekursif | Fungsi yang memanggil dirinya sendiri
 int faktorial (int n){
     if (n==0 || n == 1){
         return 1;
