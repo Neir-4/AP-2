@@ -11,19 +11,19 @@ int main() {
     cout<<"Masukkan Nilai : ";
     cin>>nilai;
 
-    // //if statement
+    // //if statement | Operasi Kondisi
     // if (nilai <= 65 ) {
     //     cout<<"Anda tidak lulus" << endl;
     // }
 
-    // if else statement
+    // if else statement | Operasi Kondisi selain dari semua kondisi sebelumnya
     // if (nilai <= 65 ) {    jika nilai kurang dari sama dengan 65 maka
     //     cout<<"Anda Tidak Lulus"<< endl;
     // } else { selain itu maka
     //     cout<<"Anda Lulus"<< endl;
     // }
 
-    //if else if statement
+    //if else if statement 
     // if (nilai == 100) {
     //     cout<<"Anda Kece"<<endl;
     // } else if (nilai <= 65) {
@@ -32,7 +32,7 @@ int main() {
     //     cout<<"Anda Lulus"<<endl;
     // }
 
-    // nested if 
+    // nested if | Operasi kondisi di dalam operasi kondisi
     // if (nilai <= 65) {
     //     cout<<"Anda tidak lulus"<<endl;
     // } else {
@@ -44,7 +44,7 @@ int main() {
 
     // }
 
-    // switch case
+    // switch case | Operasi Kondisi yang berisi percabangan berdasarkan dari variabel yang ditentukan
     // switch (nilai) {
     //     case 1:
     //         cout<<"Senin"<<endl;
@@ -78,7 +78,7 @@ int main() {
     //         break;
     // }
 
-    // switch range
+    // switch range 
     // switch(nilai) {
     //     case 85 ... 100 : cout << "A" << endl; break;
     //     case 80 ... 84 : cout << "B+" << endl; break;
@@ -88,7 +88,7 @@ int main() {
     //     case 60 ... 64 : cout << "D" << endl; break;
     //     default : cout<< "E"<<endl; break;
     // }
-    // Ternary operator
+    // Ternary operator | Operator dengan tiga operand
     // a > 5 ? 9 : 6
     // string checkNum = (nilai % 2 == 0) ? "Genap" : "Ganjil";
     // cout<< nilai << " tuh bilangan "<<checkNum << " sih"<<endl;
