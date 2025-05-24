@@ -7,11 +7,11 @@ main() {
     int a,b;
     system("CLS"); //untuk membersihkan terminal
 
-    //assignment operator
+    //assignment operator | Operator untuk memberikan nilai
     a = 3;
     b = 5;
 
-    //arithmetical operator
+    //arithmetical operator | Operator untuk melakukan operasi matematika
     // int tambah  =  a + b;
     // int kurang  = a - b;
     // int kali = a * b;
@@ -24,7 +24,7 @@ main() {
     // cout<<"Hasil Pembagian : "<<bagi<<endl;
     // cout<<"Hasil Modulo : "<<modulo<<endl;
 
-    //relational operator
+    //relational operator | Operator untuk membandingkan nilai dari 2 operand
     // cout<< (a==b) << endl;
     // cout<< (a<b) << endl;
     // cout<< (a<=b) << endl;
@@ -32,7 +32,7 @@ main() {
     // cout<< (a>=b) << endl;
     // cout<< (a!=b) << endl;
 
-    //logical operator (&&, ||, !)
+    //logical operator (&&, ||, !) | Operator untuk membandingkan nilai dari 2 variabel bertipe boolean 
     // cout << (true && true) << endl;
     // cout << (true && false) << endl;
     // cout << (false && true) << endl;
@@ -46,7 +46,7 @@ main() {
     // cout<< !true << endl;
     // cout<< !false << endl;
 
-    //bitwise operator (&, |, ^, ~, >>, <<) --> biner
+    //bitwise operator (&, |, ^, ~, >>, <<) --> biner | Operator untuk operasi bit per bit
     // cout<< (5&7) << endl;
     // cout<< (5|7) << endl;
     // cout<< (5^7) << endl;
@@ -54,7 +54,7 @@ main() {
     // cout<< (7<<2) << endl;
     // cout<< (7>>2) << endl;
 
-    //shorthand
+    //shorthand | Cara memperpendek atau mempersingkat penulisan 
     // a += 7; // a = a + 7;
     // cout<< a << endl;
 
